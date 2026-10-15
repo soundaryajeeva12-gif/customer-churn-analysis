@@ -1,0 +1,6 @@
+customerID,churn_probability,top_drivers,recommendation
+1820-TQVEV,0.973,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (raises churn risk) | Contract_Two year (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
+5542-TBBWB,0.971,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (raises churn risk) | Contract_Two year (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
+9804-ICWBG,0.971,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (raises churn risk) | Contract_Two year (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
+3716-BDVDB,0.966,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (raises churn risk) | PaymentMethod_Electronic check (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
+9057-SIHCH,0.962,tenure (raises churn risk) | InternetService_Fiber optic (raises churn risk) | Contract_Two year (raises churn risk) | MonthlyCharges (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
