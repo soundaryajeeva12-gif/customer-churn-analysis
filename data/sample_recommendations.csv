@@ -1,6 +1,6 @@
-customerID,churn_probability,top_drivers,recommendation
-1820-TQVEV,0.973,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (raises churn risk) | Contract_Two year (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
-5542-TBBWB,0.971,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (raises churn risk) | Contract_Two year (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
-9804-ICWBG,0.971,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (raises churn risk) | Contract_Two year (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
-3716-BDVDB,0.966,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (raises churn risk) | PaymentMethod_Electronic check (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
-9057-SIHCH,0.962,tenure (raises churn risk) | InternetService_Fiber optic (raises churn risk) | Contract_Two year (raises churn risk) | MonthlyCharges (raises churn risk),Discounted 12-month contract upgrade  [template fallback]
+customerID,segment,churn_probability,top_drivers,recommendation,source
+1820-TQVEV,Month-to-month | Fiber optic,0.973,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (raises churn risk) | Contract_Two year (raises churn risk),Discounted 12-month contract upgrade,template
+0841-NULXI,Month-to-month | DSL,0.942,tenure (raises churn risk) | TotalCharges (raises churn risk) | PaymentMethod_Electronic check (raises churn risk) | InternetService_Fiber optic (lowers churn risk),Discounted 12-month contract upgrade,template
+1240-KNSEZ,Month-to-month | No,0.717,tenure (raises churn risk) | TotalCharges (raises churn risk) | InternetService_Fiber optic (lowers churn risk) | Contract_Two year (raises churn risk),Discounted 12-month contract upgrade,template
+6362-QHAFM,One year | Fiber optic,0.692,Contract_One year (lowers churn risk) | PaymentMethod_Electronic check (raises churn risk) | InternetService_Fiber optic (raises churn risk) | MonthlyCharges (raises churn risk),Autopay switch incentive,template
+4905-JEFDW,One year | DSL,0.604,Contract_One year (lowers churn risk) | PaymentMethod_Electronic check (raises churn risk) | InternetService_Fiber optic (lowers churn risk) | tenure (raises churn risk),Autopay switch incentive,template

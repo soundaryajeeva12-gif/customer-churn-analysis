@@ -4,7 +4,9 @@ import pandas as pd
 st.title("Customer Churn Analysis Dashboard")
 st.write("Exploring why customers leave and what drives churn risk")
 
-df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
+from pathlib import Path
+DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+df = pd.read_csv(DATA_PATH)
 df['TotalCharges'] = pd.to_numeric(df['TotalCharges'], errors='coerce')
 df = df.dropna(subset=['TotalCharges'])
 
@@ -59,8 +61,7 @@ else:
     st.write("No customers found in this segment")
 st.write("## Churn Playbook: Recommended Actions")
 st.markdown("""
-- **New month-to-month customers (0-12 months):** Highest risk segment (47.7% churn) — offer a discounted contract upgrade early
+- **New month-to-month customers (0-12 months):** High-risk segment (51.4% churn) — offer a discounted contract upgrade early
 - **Customers without tech support:** Churn at 41.65% vs 15.20% with support — offer a free trial in month 2-3
-- **Fiber optic customers:** Elevated churn risk — flag for service/satisfaction check-ins
-- **Electronic check payers:** Slightly higher churn — incentivize switching to autopay
-""")
+- **Fiber optic customers:** Month-to-month fiber customers churn at 54.6%, the riskiest segment — flag for service/satisfaction check-ins
+- **Electronic check payers:** Churn at 45.3% vs 15-19% for other payment methods — incentivize switching to autopay""")
